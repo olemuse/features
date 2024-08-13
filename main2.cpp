@@ -47,7 +47,11 @@ int main()
 
   Color& dd = b;
 
-  std::cout << c << " " << ptr << " "<< b << " " << d;
+  const int & g = 110;
+  int&& h = 100;
+
+  std::cout << c << " " << ptr << " "<< b << " " << d << " " << g << " " << h;
+  
 
 
   return 0;
