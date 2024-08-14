@@ -35,3 +35,8 @@ void passConstPntString (const string* s){
     cout << s;
 }
 
+void passRvalueString(const string&& s) {
+    string ss = s;
+    cout << s;
+}
+

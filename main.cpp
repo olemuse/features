@@ -9,8 +9,9 @@
 
 int main(){
 
-/*  strings  
+/*  strings  */
     string str = "Hello!";
+    
 
     passConstPntString(&str);
     passConstRefString(str);
@@ -18,7 +19,8 @@ int main(){
     passPntString(&str);
     passRefString(str);
     passString(str);
-*/
+    passRvalueString("Hello!");
+
 
 /* // simple teplates
 
@@ -100,6 +102,10 @@ cout << f.increm() << endl;
     }) << endl;
     auto f = [](int v1, int v2) {return v1 == v2;};
     cout << lclass.compare(22, f) << endl;
+
+    char chjj;
+
+    cin >> chjj;
     
     return 0;
 }

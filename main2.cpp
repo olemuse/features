@@ -1,6 +1,6 @@
 #include <iostream>
 #include <functional>
-
+/*
 std::function<void(void)> closureWrapper()
 {
     int y = 10;
@@ -56,3 +56,4 @@ int main()
 
   return 0;
 }
+*/
