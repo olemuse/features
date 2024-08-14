@@ -102,7 +102,7 @@ cout << f.increm() << endl;
     }) << endl;
     auto f = [](int v1, int v2) {return v1 == v2;};
     cout << lclass.compare(22, f) << endl;
-
+    //test branch
     char chjj;
 
     cin >> chjj;
