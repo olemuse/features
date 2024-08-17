@@ -3,6 +3,7 @@
 #include <functional>
 //#define PY_SSIZE_T_CLEAN
 //#include <Python.h>
+#include <Python.h>
 
 typedef int (*f)(int, int);
 
@@ -24,7 +25,7 @@ int main() {
 	std::cout << objB.passAnotherCallback(pfoo2);
 	std::cout << objB.passAnotherCallback(pfoo);
 
-	getchar();
+	//getchar();
 	return 0;
 }
 /*
