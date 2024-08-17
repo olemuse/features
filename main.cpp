@@ -1,4 +1,4 @@
-#include "passing_strings.h"
+/*#include "passing_strings.h"
 #include "templates.h"
 #include "using_in_classes.h"
 #include "template_concept.h"
@@ -9,7 +9,7 @@
 
 int main(){
 
-/*  strings  */
+  strings  
     string str = "Hello!";
     
 
@@ -19,7 +19,7 @@ int main(){
     passPntString(&str);
     passRefString(str);
     passString(str);
-    passRvalueString("Hello!");
+    passRvalueString("Hello!"); */
 
 
 /* // simple teplates
@@ -90,7 +90,7 @@ int main(){
 Friend f;
 cout << f.increm() << endl;
 */
-    
+/*
     C cobj(300);
 
     LambdaClass lclass(10);
@@ -112,3 +112,4 @@ cout << f.increm() << endl;
     
     return 0;
 }
+*/
