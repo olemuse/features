@@ -1,6 +1,7 @@
 #include <iostream>
 #include "delegates_callbacks_functors.h"
 #define PY_SSIZE_T_CLEAN
+#include </usr/include/python3.9/pyconfig-64.h>
 #include <Python.h>
 
 typedef int (*f)(int, int);
